@@ -7,10 +7,10 @@ events = [
     {"Name":"Closit","Description":"a closit. As you opened the door a broom fell out a starteled you.","Fight":False},
     {"Name":"Library","Description":"a room full of books... with an angry librarian inside!","Fight":True},
     {"Name":"Barracks","Description":"a room where a table full of goblins stare at you!","Fight":True}
-    {"Name":"Boss Room","You meet the boss of the dungeon! HE IS NOT HAPPY TO SEE YOU!","Fight":True}
           ]
 
 eventsize = len(events) - 1
+
 def generateDungeon():
     #This fills out a list with various events that will act as the dungeon!
     dungeon = []
