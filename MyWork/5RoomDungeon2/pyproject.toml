@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "5RoomDungeon"
+version = 1.0
+authors = [{name="Curtis Canby", email="ccanby01@rams.shepherd.edu"}]
+description = "A fun simple game."
+readme = "README.md"
+requires-python = ">=1.0"
+classifiers = [
+    "Programming Language :: Python :: 3", 
+    "License :: MIT License",
+    "Operating System :: OS Independent"
+    ]
+dependencies = []
